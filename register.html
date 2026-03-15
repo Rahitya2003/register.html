@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Register</title>
+</head>
+<body>
+  <h2>Registration Form</h2>
+
+  <form  action="./login.html">
+    FName: <input type="text" name="fname" required><br><br>
+    Email: <input type="email" name="email" required><br><br>
+    Uname: <input type="text" name="uname" required><br><br>
+    Password: <input type="password" name="password" required><br><br>
+    Confirm Password: <input type="password" name="cpassword" required><br><br>
+    mobile  number:<input type="mobile number"mobile number="mobilen umber" required><br><br>
+    <div>
+        <input type="radio" id="gmale" value="male" name="gender"/>
+        <label for="gmale">male</label>
+        <input type="radio" id="gfemale" value="famale" name="gender"/>
+        <label for="gmale">female</label>
+
+    </div>
+    <div>
+        <input type="checkbox" value="10th"/>10th
+        <input type="checkbox" value="Inter"/>Inter
+        <input type="checkbox" value="Diploma"/>Diploma
+        <input type="checkbox" value="Btech"/>Btech
+    </div>
+   <div>
+       <div>
+      <select>
+          <option value="">Select your city</option>
+          <option value="Hyderabad">Hyderabad</option>
+          <option value="Vizag">Vizag</option>
+          <option value="Nellore">Nellore</option>
+        </select>
+    </div>
+    <div>
+        <textarea name="address" placeholder="Enter your address"></textarea>
+        <label for="address">Address:</label>
+    </div>
+    <div>
+        <input type="date" name="dob">
+        <label for="dob">Date of Birth:</label>
+    </div>  
+    <button type="submit">Register</button>
+  </form>
+
+  <br><a href="/login">Already registered? Login</a>
+
+</body>
+</html>
